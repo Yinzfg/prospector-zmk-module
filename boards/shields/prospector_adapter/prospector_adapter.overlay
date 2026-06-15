@@ -1,8 +1,4 @@
 / {
-   chosen {
-      zephyr,display = &st7789;
-   };
-
    prospector_green_theme: prospector_green_theme {
       compatible = "zmk,prospector-theme";
       left-panel-bg = <0x0D2C26>;
